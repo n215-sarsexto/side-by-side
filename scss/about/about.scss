@@ -1,0 +1,53 @@
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+  .about-header {
+    margin-bottom: 107px;
+    span {
+      font-weight: bold;
+      font-size: 72px;
+    }
+    hr {
+      width: 177px;
+      border: 2px solid;
+    }
+  }
+  .about-client-quotes {
+    span {
+      font-weight: bold;
+      font-size: 42px;
+    }
+    hr {
+      width: 177px;
+      border: 2px solid;
+    }
+
+    .client-quote {
+      margin-top: 37px;
+      margin-bottom: 37px;
+      max-width: 722px;
+      display: flex;
+      position: relative;
+      .client-quote-image {
+        width: 260px;
+        height: 150px;
+        overflow: hidden;
+        margin-right: 21px;
+
+        img {
+          width: 100%;
+        }
+      }
+      .client-quote-text {
+        max-width: 440px;
+        margin-bottom: 20px;
+      }
+      .client-quote-name {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        color: $site-background;
+      }
+    }
+  }
+}
